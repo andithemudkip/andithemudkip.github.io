@@ -1,0 +1,8 @@
+img {
+    border-radius: .25em;
+    filter: brightness(.75);
+    transition: all .3s;
+}
+img:hover {
+    filter: brightness(1);
+}
