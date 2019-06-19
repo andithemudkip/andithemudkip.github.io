@@ -3,15 +3,18 @@ img {
     filter: brightness(.75);
     transition: all .3s;
 }
+
 img:hover {
     filter: brightness(1);
 }
+
 body {
     /* background-image: url("https://images.wallpaperscraft.com/image/gradient_texture_color_129394_3840x2160.jpg") !important; */
     /* background-size: cover !important; */
     /* filter: hue-rotate(10%); */
     /* background-blend-mode: lighten; */
 }
+
 .bg {
     /* position: absolute; */
     /* width: 100%; */
@@ -21,19 +24,17 @@ body {
     /* padding: 2em; */
     /* box-shadow: 0px 0px 100px 0px rgba(0, 0, 0, .25); */
     /* background-color: rgba(255, 255, 255, .5); */
-
 }
+
 .parallax {
     /* The image used */
     background-image: url("banner.png");
-  
     /* Set a specific height */
-    min-height: 200px; 
-  
+    min-height: 200px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
-    background-position: center -5em;
+    background-position: center -2em;
     background-repeat: no-repeat;
     background-size: 800px;
     /* box-shadow: inset 0px -5px 10px 0px rgba(0, 0, 0, .25); */
-  }
+}
